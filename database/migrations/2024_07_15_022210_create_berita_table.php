@@ -16,9 +16,9 @@ return new class extends Migration
             $table->string('judul');
             $table->string('isi_berita', 1500);
             $table->date('tanggal_berita');
-
             $table->string('gambar_berita1');
             $table->string('gambar_berita2');
+            $table->string('gambar_berita3');
             $table->timestamps();
         });
     }
