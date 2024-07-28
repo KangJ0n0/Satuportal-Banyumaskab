@@ -1,4 +1,4 @@
-<footer style="background-color: #202437;" class="text-white font-nunito">
+<footer style="background-color: #202437;" class="text-white ">
 
     <div class="container mx-auto px-6 py-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">

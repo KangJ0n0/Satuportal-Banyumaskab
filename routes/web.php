@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BeritaController;
+use App\Http\Controllers\EventController;
 
 
 Route::get('/', function () {
@@ -12,3 +14,6 @@ Route::get('/dashboard', function () {
 });
 
 
+Route::get('/dashboard', [BeritaController::class, 'index']);
+
+Route::get('/dashboard', [EventController::class, 'index']);
