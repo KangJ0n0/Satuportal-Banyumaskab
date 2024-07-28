@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-white">
+<body class="bg-white'">
 
 <!-- Navbar -->
 <x-navbar></x-navbar>
@@ -16,10 +16,7 @@
 <!-- Hero Section -->
 <section class="relative">
     <img src="storage/hero.png" alt="City illustration" class="w-full">
-    <div class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center text-white">
-        <h1 class="text-4xl md:text-6xl font-bold">Banyumas</h1>
-        <p class="text-lg md:text-2xl mt-4">Selamat Datang di Situs Resmi</p>
-    </div>
+   
 </section>
 
 <!-- Event Section -->
@@ -363,7 +360,8 @@
 </div>
 </section>
 <!-- Footer Section -->
-<x-footer></x-footer>
+
 
 </body>
+<x-footer></x-footer>
 </html>
