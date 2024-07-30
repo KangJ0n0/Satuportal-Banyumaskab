@@ -1,5 +1,5 @@
 <section>
-<header class="bg-blue-500 py-6">
+<header class="py-6" style="background-color: #4287A0;">
     <div class="container mx-auto flex justify-between items-center">
         <h1 class="text-white text-3xl font-bold">LAPAK ADUAN BANYUMAS</h1>
         <div class="relative">
@@ -10,7 +10,7 @@
 </header>
 
 <div class="container mx-auto py-12">
-    <div class="bg-blue-300 p-6 rounded-lg shadow-lg mb-8">
+    <div class="bg-blue-300 p-6 rounded-lg shadow-lg mb-8" style="background-color: #4287A0;">
         <div class="flex items-center">
             <img src="https://placehold.co/100x100" alt="Icon for Aduan" class="w-20 h-20 mr-4">
             <p class="text-white text-xl">
@@ -32,3 +32,4 @@
         </button>
     </div>
 </div>
+</section>

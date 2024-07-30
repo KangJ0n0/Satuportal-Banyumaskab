@@ -14,6 +14,10 @@ Route::get('/dashboard', function () {
 });
 
 
-Route::get('/dashboard', [BeritaController::class, 'index']);
+Route::get('/', [BeritaController::class, 'index']);
 
-Route::get('/dashboard', [EventController::class, 'index']);
+Route::get('dashboard', [EventController::class, 'index']);
+
+Route::get('/', [EventController::class, 'index']);
+
+Route::get('/dashboard', [BeritaController::class, 'index']);

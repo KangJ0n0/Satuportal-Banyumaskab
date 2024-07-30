@@ -7,8 +7,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class Event extends Model
 {
+    protected $table = 'events';
+
+    
  
     use HasFactory;
+
+    
     protected $fillable = [
         'nama_event',
         'deskripsi',
@@ -17,4 +22,6 @@ class Event extends Model
         'gambar_event1',
         'gambar_event2',
     ];
+
+
 }

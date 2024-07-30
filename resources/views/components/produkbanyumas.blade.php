@@ -1,3 +1,4 @@
+<section>
 <div class="mb-8 bg-teal-600 text-white rounded-lg p-4">
     <div class="flex justify-between items-center border-b border-white pb-2">
         <h2 class="text-xl font-bold">PRODUK BANYUMAS</h2>
@@ -41,3 +42,4 @@
         <button class="text-xl bg-white text-teal-600 rounded-full p-2"><i class="fas fa-chevron-right"></i></button>
     </div>
     </div>
+</section>

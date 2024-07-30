@@ -1,4 +1,5 @@
-<section> <div class="flex justify-between items-center border-b border-gray-300 pb-2">
+<section class="mb-6">
+    <div class="flex justify-between items-center border-b border-gray-300 pb-2">
     <h2 class="text-xl font-bold">ADUAN MASYARAKAT</h2>
     <a href="#" class="text-sm text-white bg-teal-600 px-4 py-2 rounded">Selengkapnya</a>
 </div>
@@ -36,3 +37,5 @@
     </div>
 </div>
 </div>
+<br>
+</section>
