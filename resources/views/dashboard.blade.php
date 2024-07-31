@@ -72,50 +72,7 @@
 <x-layananpublik></x-layananpublik>
     
 <!-- News Section -->
-<section class="mb-6">
-    <div class="max-w-7xl mx-auto px-4">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
-            <!-- News Item -->
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <img src="https://placehold.co/400x200" alt="News Image" class="w-full h-48 object-cover border-8 border-white">
-                <div class="p-4">
-                    <p class="text-gray-500 text-sm mb-2">Kamis, 27 Juni 2024</p>
-                    <h2 class="text-xl font-semibold text-gray-900 mb-2">KADIVPAS: PENCANANGAN TUSI PEMASYARAKATAN DI RUT...</h2>
-                    <p class="text-gray-700 text-sm">BANYUMAS - Divisi Pemasyarakatan Kantor Wilayah Kementerian Hukum dan HAM Jawa Tengah menyelenggarakan kegiatan...</p>
-                </div>
-            </div>
-            <!-- Repeat similar blocks for other news items -->
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <img src="https://placehold.co/400x200" alt="News Image" class="w-full h-48 object-cover border-8 border-white">
-                <div class="p-4">
-                    <p class="text-gray-500 text-sm mb-2">Kamis, 27 Juni 2024</p>
-                    <h2 class="text-xl font-semibold text-gray-900 mb-2">NYANTRIK, JLF PERTEMUAN KOLABORASI SENIM...</h2>
-                    <p class="text-gray-700 text-sm">BANYUMAS - Kabupaten Banyumas di Provinsi Jawa Tengah menyelenggarakan kegiatan Nyantrik, sebuah pertemuan kolaborasi seni...</p>
-                </div>
-            </div>
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <img src="https://placehold.co/400x200" alt="News Image" class="w-full h-48 object-cover border-8 border-white">
-                <div class="p-4">
-                    <p class="text-gray-500 text-sm mb-2">Kamis, 27 Juni 2024</p>
-                    <h2 class="text-xl font-semibold text-gray-900 mb-2">HARI LINGKUNGAN HIDUP: PJ GUBERNUR JATE...</h2>
-                    <p class="text-gray-700 text-sm">BANYUMAS - Pj Gubernur Jawa Tengah menghadiri peringatan Hari Lingkungan Hidup di Kabupaten Banyumas dengan tema...</p>
-                </div>
-            </div>
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <img src="https://placehold.co/400x200" alt="News Image" class="w-full h-48 object-cover border-8 border-white">
-                <div class="p-4">
-                    <p class="text-gray-500 text-sm mb-2">Kamis, 27 Juni 2024</p>
-                    <h2 class="text-xl font-semibold text-gray-900 mb-2">ACARA PENUTUPAN FESTIVAL BUDAYA 2024...</h2>
-                    <p class="text-gray-700 text-sm">BANYUMAS - Festival Budaya 2024 di Banyumas telah resmi ditutup dengan acara yang meriah dan banyak penampilan seni...</p>
-                </div>
-            </div>
-        </div>
-        <div class="mt-4 text-center">
-            <button class="px-4 py-2 bg-teal-500 text-white font-semibold rounded">Lihat Selengkapnya</button>
-        </div>
-    </div>
-</section>
-
+<x-berita></x-berita>
 
 <!-- Infographic and Prices Section -->
 <x-harga></x-harga>
