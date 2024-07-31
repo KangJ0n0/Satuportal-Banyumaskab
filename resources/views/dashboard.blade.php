@@ -78,14 +78,7 @@
 <x-harga></x-harga>
 
 <!-- Profile Section -->
-<section class="mb-6">
-    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-        <img src="https://placehold.co/1200x400" alt="Profil Kabupaten Banyumas" class="w-full h-64 object-cover">
-        <div class="p-6">
-            <h2 class="text-2xl font-semibold text-gray-900 mb-2">PROFIL KABUPATEN BANYUMAS</h2>
-        </div>
-    </div>
-</section>
+<x-profil></x-profil>
 
 <!-- Aduan masyarakat -->
 <x-aduanmasyarakat></x-aduanmasyarakat>
