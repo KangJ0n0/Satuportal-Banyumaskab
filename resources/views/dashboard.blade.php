@@ -87,22 +87,7 @@
 <x-produkbanyumas></x-produkbanyumas>
 
 <!-- Instagram Feeds Section -->
-<div class="mb-8">
-<div class="flex justify-between items-center border-b border-gray-300 pb-2">
-    <h2 class="text-xl font-bold">Instagram Feeds</h2>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-    <!-- Instagram Feed Card -->
-    <div class="bg-black shadow-md rounded-lg overflow-hidden">
-        <img src="https://placehold.co/600x400" alt="Instagram Feed" class="w-full">
-    </div>
-    <!-- Repeat for each Instagram feed (2 total) -->
-    <div class="bg-black shadow-md rounded-lg overflow-hidden">
-        <img src="https://placehold.co/600x400" alt="Instagram Feed" class="w-full">
-    </div>
-</div>
-<br><br>
-</section>
+<x-instagram></x-instagram>
 
 </body>
 <x-footer></x-footer>
