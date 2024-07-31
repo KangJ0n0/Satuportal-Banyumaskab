@@ -1,6 +1,4 @@
-
-
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,19 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram Feeds</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .instagram-media {
+            background: #000;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            position: relative;
+        }
+
+        .instagram-media::before {
+            content: '';
+            display: block;
+            padding-top: 56.25%;
+            /* 16:9 aspect ratio */
+        }
+
+        .instagram-media iframe,
+        .instagram-media blockquote {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        .instagram-media[data-instgrm-permalink]::after {
+            content: "Instagram Post";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+            padding: 8px 0;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+
+        .instagram-media:hover[data-instgrm-permalink]::after {
+            background: rgba(0, 0, 0, 0.9);
+        }
+    </style>
 </head>
 
 <body>
     <section class="container mx-auto px-4 py-8">
         <div class="mb-8">
-            <div class="flex justify-between items-center border-b border-gray-300 pb-2">
-                <h2 class="text-xl font-bold">Instagram Feeds</h2>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-4">
+                <!-- Increased gap-8 for more space between cards -->
                 <!-- Instagram Feed Card -->
-                <blockquote class="instagram-media w-full" data-instgrm-permalink="https://www.instagram.com/maspjbanyumas" data-instgrm-version="12" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); max-width:540px; min-width:326px; width:100%; max-height:100%; margin: 0 auto;">
+                <blockquote class="instagram-media w-full" data-instgrm-permalink="https://www.instagram.com/maspjbanyumas" data-instgrm-version="12">
                 </blockquote>
-                <blockquote class="instagram-media w-full" data-instgrm-permalink="https://www.instagram.com/betterbanyumas" data-instgrm-version="12" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); max-width:540px; min-width:326px; width:100%; max-height:100%; margin: 0 auto;">
+                <blockquote class="instagram-media w-full" data-instgrm-permalink="https://www.instagram.com/betterbanyumas" data-instgrm-version="12">
                 </blockquote>
             </div>
         </div>
