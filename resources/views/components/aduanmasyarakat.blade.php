@@ -70,6 +70,7 @@
 </head>
 
 <body class="bg-gray-100 font-sans">
+    <section id="aduanmasyarakat">
     <div class="max-w-6xl mx-auto px-2 lg:px-8 py-4">
         <!-- Header Section -->
         <div class="flex items-center space-x-4 mb-8">
@@ -110,7 +111,7 @@
             </div>
 
             <div class="bg-white rounded-lg shadow-md relative p-2 md:p-4">
-                <div class="relative card-image" onclick="showModal('storage/jalan.jpeg')">
+                <div class="relative card-image" onclick="showModal('storage/jalan3.jpeg')">
                     <img src="storage/jalan3.jpeg" alt="Jl. Gerboe - damaged road with overgrown vegetation" class="rounded-t-lg mb-4">
                     <div class="overlay">
                         <i class="fas fa-eye"></i>
@@ -150,6 +151,7 @@
             document.getElementById('modal').style.display = 'none';
         }
     </script>
+    </>
 </body>
 
 </html>

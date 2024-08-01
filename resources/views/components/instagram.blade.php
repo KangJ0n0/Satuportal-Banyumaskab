@@ -7,6 +7,7 @@
     <title>Instagram Feeds</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
+
         .instagram-media {
             background: #000;
             border-radius: 12px;
@@ -58,10 +59,10 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-4">
                 <!-- Increased gap-8 for more space between cards -->
                 <!-- Instagram Feed Card -->
-                <blockquote class="instagram-media w-full" data-instgrm-permalink="https://www.instagram.com/maspjbanyumas" data-instgrm-version="12">
+                <blockquote class="instagram-media w-full" data-instgrm-permalink="https://www.instagram.com/p/betterbanyumas/?utm_source=ig_embed&utm_campaign=invalid&ig_rid=54c8ff8a-1fb6-426f-8a92-0f821354c70e" data-instgrm-version="12">
                 </blockquote>
-                <blockquote class="instagram-media w-full" data-instgrm-permalink="https://www.instagram.com/betterbanyumas" data-instgrm-version="12">
-                </blockquote>
+                <blockquote class="instagram-media w-full" data-instgrm-permalink="https://www.instagram.com/p/betterbanyumas/?utm_source=ig_embed&utm_campaign=invalid&ig_rid=54c8ff8a-1fb6-426f-8a92-0f821354c70e" data-instgrm-version="14"></blockquote>
+
             </div>
         </div>
     </section>

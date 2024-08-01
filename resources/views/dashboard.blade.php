@@ -9,6 +9,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="bg-white'">
+<x-navbottom></x-navbottom>
 
 <!-- Navbar -->
 <x-navbar></x-navbar>
@@ -20,45 +21,7 @@
 <!-- Event Section -->
 
 
-<section class="" style="background-image: url('storage/eventbg.png'); background-size: cover; background-position: center;">
-    <div class="max-w-6xl mx-auto py-12">
-    <h3 class="flex items-center w-full">
-      <span class="flex-grow bg-gray-200 rounded h-1"></span>
-      <span class="mx-3 text-lg font-medium">EVENT KABUPATEN BANYUMAS</span>
-      <span class="flex-grow bg-gray-200 rounded h-1"></span>
-    </h3>
-    <div class="flex justify-between items-center mt-8">
-      <button class="bg-blue-200 p-2 rounded-full">
-        <i class="fas fa-arrow-left text-blue-700"></i>
-      </button>
-
-      <div class="w-full max-w-xl mx-auto bg-white rounded-lg shadow-md overflow-hidden">
-        @foreach ($events as $event)
-        <div class="flex mb-8">
-          <div class="">
-            <img class="object-cover w-full h-48" src="{{ $event->gambar_event1 }}" alt="{{ $event->nama_event }} event poster featuring various artists">
-          </div>
-          <div class="w-1/2 p-4">
-            <h2 class="text-lg font-semibold text-gray-800 truncate">{{ $event->nama_event }}</h2>
-            <p class="text-gray-600">{{ \Carbon\Carbon::parse($event->tanggal)->format('d F Y') }}</p>
-            <p class="mt-2 text-gray-600 overflow-hidden text-ellipsis">{{ $event->deskripsi }}</p>
-            <p class="mt-2 text-gray-400">{{ \Carbon\Carbon::parse($event->tanggal)->format('d M Y') }}</p>
-            <div class="mt-4 flex justify-between">
-              <button class="bg-teal-500 text-white py-2 px-4 rounded hover:bg-teal-600">Detail Event</button>
-              <button class="bg-gray-300 text-gray-700 py-2 px-4 rounded hover:bg-gray-400">Jadwal Event Lainnya</button>
-            </div>
-          </div>
-        </div>
-        @endforeach
-      </div>
-
-      <button class="bg-blue-200 p-2 rounded-full">
-        <i class="fas fa-arrow-right text-blue-700"></i>
-      </button>
-    </div>
-  </div>
-</section>
-
+<x-event></x-event>
 
 
 
@@ -88,6 +51,7 @@
 
 <!-- Instagram Feeds Section -->
 <x-instagram></x-instagram>
+
 
 </body>
 <x-footer></x-footer>

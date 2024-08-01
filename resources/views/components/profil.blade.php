@@ -9,6 +9,7 @@
 </head>
 
 <body>
+  <section id="profil">
   <div class="flex flex-col md:flex-row bg-white">
     <div class="flex items-center bg-[#F4F4F4] p-8 w-full md:w-1/3 h-64 md:h-auto bg-cover bg-center"
       style="background-image: url('storage/profilki.png');">
@@ -22,14 +23,14 @@
       style="background-image: url('storage/profilka.png');">
       <div class="absolute top-1/2 transform -translate-y-1/2 left-1/2 -translate-x-1/2 flex flex-col md:flex-row space-y-6 md:space-y-0 space-x-0 md:space-x-12">
         <div class="flex flex-col items-center">
-          <a href="https://satuportal.banyumaskab.go.id/profil?id=3" class="hover:scale-11">
+          <a href="https://satuportal.banyumaskab.go.id/profil?id=3" class="hover:scale-110">
             <img src="storage/profilpemerintahan.png" alt="Logo Pemerintahan" class="w-16 h-16 md:w-24 md:h-24">
           </a>
           <p class="text-white mt-2 text-center">Profil Pemerintahan</p>
         </div>
         <div class="flex flex-col items-center">
         
-          <a href="https://satuportal.banyumaskab.go.id/profil?id=4" class="hover:scale-11">              <img src="storage/profilkota.png" alt="Map Profil Kota" class="w-16 h-16 md:w-24 md:h-24">
+          <a href="https://satuportal.banyumaskab.go.id/profil?id=4" class="hover:scale-110">              <img src="storage/profilkota.png" alt="Map Profil Kota" class="w-16 h-16 md:w-24 md:h-24">
             </a>
        
           <p class="text-white mt-2 text-center">Profil Kota</p>
@@ -38,6 +39,7 @@
     </div>
   </div>
   <br>
+</section>
 </body>
 
 </html>
