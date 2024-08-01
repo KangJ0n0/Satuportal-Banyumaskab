@@ -72,8 +72,8 @@
     <img src="storage/hero.png" alt="City illustration" class="w-full h-64 md:h-auto object-cover md:object-contain">
     <div class="absolute top-0 left-0 w-full h-3/5 flex flex-col items-center justify-center text-center text-white">
         <img src="storage/logo-kabupaten.png" alt="Banyumas Logo" class="hidden md:block w-24 md:w-32 mb-4 hero-image">
-        <p class="text-lg md:text-2xl mt-4 hero-text">SELAMAT DATANG DI SITUS RESMI</p>
-        <h1 class="text-4xl md:text-6xl font-bold hero-h1">SATUPORTAL BANYUMAS</h1>
+        <p class=" mt-4 hero-text">SELAMAT DATANG DI SITUS RESMI</p>
+        <h1 class="  font-bold hero-h1">SATUPORTAL BANYUMAS</h1>
     </div>
 </section>
 

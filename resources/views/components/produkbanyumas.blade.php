@@ -80,7 +80,7 @@
                         <div class="overflow-hidden bg-white rounded-lg shadow-md swiper-slide">
                             <img src="storage/produk.jpeg" alt="Wisata Budaya" class="w-full">
                             <div class="p-4">
-                                <h3 class="font-semibold text-teal-600 text-md">Produsen Gembus Marjoko</h3>
+                                <h3 class="font-semibold text-teal-600 text-md">Gembus Marjoko</h3>
                                 <p class="text-sm text-gray-600">Potensi dan Produk Desa</p>
                                 <p class="text-bawah" style="color: black;">Pemerintah Desa Prembun</p>
                             </div>
@@ -105,7 +105,7 @@
                         </div>
                         <!-- Card 5 -->
                         <div class="overflow-hidden bg-white rounded-lg shadow-md swiper-slide">
-                            <img src="storage/brambang.jpeg" alt="Wisata Kuliner" class="w-full">
+                            <img src="storage/gembus.jpg" alt="Wisata Kuliner" class="w-full">
                             <div class="p-4">
                                 <h3 class="font-semibold text-teal-600 text-md">Brambang Goreng Tantene</h3>
                                 <p class="text-sm text-gray-600">Potensi dan Produk Desa</p>

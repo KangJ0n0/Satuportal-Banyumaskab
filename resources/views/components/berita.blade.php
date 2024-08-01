@@ -166,7 +166,7 @@
                 }
             }
 
-            setInterval(autoScroll, 2000); 
+            setInterval(autoScroll, 2500); 
         });
     </script>
     <br>

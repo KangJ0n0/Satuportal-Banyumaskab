@@ -430,13 +430,10 @@
                             <div class="grid content">
                                 <div class="font-semibold title text-[1.5rem] md:text-[2rem]">Universitas Jenderal
                                     Soedirman</div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero culpa assumenda
-                                    itaque fuga totam porro, officiis, ratione quia inventore minus, dignissimos ducimus
-                                    iusto eveniet tempora repellat a facilis neque unde?</p>
+                                <p>Sesuai Dengan Amanat Yang Tersurat Dalam Pembukaan Uud 1945 Dan Desakan Masyarakat Banyumas Akan Kebutuhan Pendidikan Tinggi, Para Pemimpin Formal Dan Informal Banyumas Menggagas Perlunya Didirikan Pe...</p>
                                 <div>
                                     <a href="#"
-                                        class="btn bg-[#4C99AA] px-5 py-2 rounded-md text-white hover:bg-[#4287A0]">Read
-                                        more</a>
+                                        class="btn bg-[#4C99AA] px-5 py-2 rounded-md text-white hover:bg-[#4287A0]">Lihat Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
@@ -452,8 +449,7 @@
                                     iusto eveniet tempora repellat a facilis neque unde?</p>
                                 <div>
                                     <a href="#"
-                                        class="btn bg-[#4C99AA] px-5 py-2 rounded-md text-white hover:bg-[#4287A0]">Read
-                                        more</a>
+                                        class="btn bg-[#4C99AA] px-5 py-2 rounded-md text-white hover:bg-[#4287A0]">Lihat selengkapnya</a>
                                 </div>
                             </div>
                         </div>
@@ -469,8 +465,7 @@
                                     iusto eveniet tempora repellat a facilis neque unde?</p>
                                 <div>
                                     <a href="#"
-                                        class="btn bg-[#4C99AA] px-5 py-2 rounded-md text-white hover:bg-[#4287A0]">Read
-                                        more</a>
+                                        class="btn bg-[#4C99AA] px-5 py-2 rounded-md text-white hover:bg-[#4287A0]">Lihat selengkapnya</a>
                                 </div>
                             </div>
                         </div>
@@ -492,6 +487,7 @@
                                     itaque fuga totam porro, officiis, ratione quia inventore minus, dignissimos ducimus
                                     iusto eveniet tempora repellat a facilis neque unde?</p>
                                 <div>
+                                    <br>
                                     <a href="#"
                                         class="btn bg-[#4C99AA] px-5 py-2 rounded-md text-white hover:bg-[#4287A0]">Read
                                         more</a>
