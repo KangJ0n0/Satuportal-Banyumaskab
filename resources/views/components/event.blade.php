@@ -32,6 +32,19 @@
   font-weight: 600;
   font-style: normal;
 
+ 
+  
+
+  .text-date{
+    font-size: 12px;
+      font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
+
+  }
+
         }
 
         .wrapper {
@@ -87,11 +100,12 @@
                             </div>
                             <div class="flex flex-col justify-between w-full md:w-1/2 lg:w-1/2">
                                 <div class="flex flex-col gap-2 mb-4">
-                                    <h2 class="text-xl font-semibold text-[#4287A0] truncate">Pemilihan Kakang Mbekayu 2024
+                                    <h1 class=" font-semibold text-[#4287A0] truncate text-h">Pemilihan Kakang Mbekayu 2024
                                     </h2>
-                                    <p class="text-gray-600">Kamis, 01 Agustus 2024</p>
-                                    <p class="overflow-hidden text-justify text-gray-600 text-ellipsis event-description">
+                                    <p class="text-gray-600 text-date">Kamis, 01 Agustus 2024</p>
+                                    <p class="overflow-hidden text-justify text-gray-600 text-ellipsis event-description text-card">
                                         #RoadToPKMB2024
+                                        
 
 
 
@@ -120,10 +134,10 @@ Dinas Pemuda, Olahraga, Kebudayaan dan Pariwisata Kabupaten Banyumas bekerjasama
                             </div>
                             <div class="flex flex-col justify-between w-full md:w-1/2 lg:w-1/2">
                                 <div class="flex flex-col gap-2 mb-4">
-                                    <h2 class="text-xl font-semibold text-[#4287A0] truncate">Dolan Madhang Tour 2024
+                                    <h2 class="text-xl font-semibold text-[#4287A0] truncate text-h">Dolan Madhang Tour 2024
                                     </h2>
                                     <p class="text-gray-600">Sabtu, 03 Agustus 2024</p>
-                                    <p class="overflow-hidden text-justify text-gray-600 text-ellipsis event-description">
+                                    <p class="overflow-hidden text-justify text-gray-600 text-ellipsis event-description text-card">
                                         “DOLAN MADHANG TOUR”  merupakan sebuah konsep perjalanan yang unik dan menarik, tidak hanya fokus pada penawaran wisata kuliner di kawasan Baturraden...
                                     </p>
                        
@@ -145,9 +159,9 @@ Dinas Pemuda, Olahraga, Kebudayaan dan Pariwisata Kabupaten Banyumas bekerjasama
                             </div>
                             <div class="flex flex-col justify-between w-full md:w-1/2 lg:w-1/2">
                                 <div class="flex flex-col gap-2 mb-4">
-                                    <h2 class="text-xl font-semibold text-[#4287A0] truncate">Baturraden Trail Run</h2>
+                                    <h2 class="text-xl font-semibold text-[#4287A0] truncate text-h">Baturraden Trail Run</h2>
                                     <p class="text-gray-600">Minggu, 04 Agustus 2024</p>
-                                    <p class="overflow-hidden text-justify text-gray-600 text-ellipsis event-description">
+                                    <p class="overflow-hidden text-justify text-gray-600 text-ellipsis event-description text-card">
                                         Baturraden Trail Run merupakan salah satu bagian dari event Baturraden Festival 2024 diselenggarakan oleh DINPORABUDPAR Kabupaten Banyumas....
                                     </p>
                          
